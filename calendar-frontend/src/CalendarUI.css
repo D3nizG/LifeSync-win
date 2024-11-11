@@ -1,0 +1,48 @@
+.CalendarUI {
+    height: 100%;
+    margin-left: 20px;
+    position: relative;
+}
+
+#calendar {
+    height: 100%;
+}
+
+#logoutButton {
+    position: relative;
+    float: right;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+    transition-duration: 0.4s;
+
+}
+
+#logoutButton:hover {
+    background-color: indianred;
+    color: black;
+}
+
+.switch-container {
+    position: absolute;
+    top: 10px;
+}
+
+.flex-container {
+    display: flex;
+    height: 100%;
+    padding-top: 10px;
+}
+
+.flex-child1 {
+    flex-grow: 2;
+    padding-right: 10px;
+}
+
+.flex-child2 {
+    flex-grow: 1;
+    border: 2px solid black;
+    margin-top: 65px;
+    padding-right: 10px;
+    padding-left: 10px;
+}

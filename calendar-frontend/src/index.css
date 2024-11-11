@@ -1,0 +1,10 @@
+html, body {
+  background-color: bisque;
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+  --fc-border-color: black;
+  --fc-daygrid-event-dot-width: 5px;
+}
